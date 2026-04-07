@@ -30,7 +30,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="text-6xl md:text-9xl font-display font-bold tracking-tighter text-brand-primary mb-10 leading-[0.95]"
         >
-          Tu Salud, <br /> <span className="text-brand-accent">Nuestra Prioridad</span>
+          Protege lo que más importa <br /> <span className="text-brand-accent">al mejor precio</span>
         </motion.h1>
 
         <motion.p
@@ -39,7 +39,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-xl md:text-2xl text-brand-text/50 max-w-3xl mx-auto mb-16 leading-relaxed font-medium"
         >
-          En MEDLA Asesores te acompanamos a encontrar el seguro de gastos medicos ideal para ti y tu familia. Asesoria personalizada, transparente y con las mejores opciones del mercado.
+          Compara, elige y ahorra en tu póliza de Gastos Médicos Mayores. En MEDLA Asesores diseñamos un escudo a tu medida para que tú y tu familia disfruten cada instante con total tranquilidad.
         </motion.p>
 
         <motion.div
@@ -61,73 +61,73 @@ export const Hero = () => {
 
         {/* Medical Visual - Heartbeat/Pulse Animation */}
         <div className="relative max-w-2xl mx-auto h-[500px] flex items-center justify-center">
-           {/* Center Card - Main Protection */}
-           <motion.div
-             initial={{ opacity: 0, scale: 0.8 }}
-             animate={{ opacity: 1, scale: 1 }}
-             transition={{
-               duration: 1.2,
-               delay: 0.8,
-               ease: [0.16, 1, 0.3, 1]
-             }}
-             className="absolute z-20 w-64 h-64 glass rounded-[48px] border border-brand-accent/20 shadow-2xl flex flex-col items-center justify-center text-brand-primary glow-pulse"
-           >
-              <Heart size={80} fill="currentColor" className="opacity-10 mb-4" />
-              <Heart size={64} className="absolute text-brand-accent animate-pulse" />
-              <div className="absolute inset-0 scan-line opacity-10" />
-              <p className="mt-16 font-display font-bold text-brand-primary">Proteccion Total</p>
-           </motion.div>
+          {/* Center Card - Main Protection */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 1.2,
+              delay: 0.8,
+              ease: [0.16, 1, 0.3, 1]
+            }}
+            className="absolute z-20 w-64 h-64 glass rounded-[48px] border border-brand-accent/20 shadow-2xl flex flex-col items-center justify-center text-brand-primary glow-pulse"
+          >
+            <Heart size={80} fill="currentColor" className="opacity-10 mb-4" />
+            <Heart size={64} className="absolute text-brand-accent animate-pulse" />
+            <div className="absolute inset-0 scan-line opacity-10" />
+            <p className="mt-16 font-display font-bold text-brand-primary">Proteccion Total</p>
+          </motion.div>
 
-           {/* Floating Medical Icons */}
-           <motion.div
-             animate={{
-               y: [0, -20, 0],
-               rotate: [0, 5, 0]
-             }}
-             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-             className="absolute z-10 -translate-x-48 -translate-y-32 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
-           >
-              <Stethoscope size={48} />
-           </motion.div>
+          {/* Floating Medical Icons */}
+          <motion.div
+            animate={{
+              y: [0, -20, 0],
+              rotate: [0, 5, 0]
+            }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute z-10 -translate-x-48 -translate-y-32 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
+          >
+            <Stethoscope size={48} />
+          </motion.div>
 
-           <motion.div
-             animate={{
-               y: [0, 20, 0],
-               rotate: [0, -5, 0]
-             }}
-             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-             className="absolute z-10 translate-x-48 -translate-y-32 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
-           >
-              <Activity size={48} />
-           </motion.div>
+          <motion.div
+            animate={{
+              y: [0, 20, 0],
+              rotate: [0, -5, 0]
+            }}
+            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+            className="absolute z-10 translate-x-48 -translate-y-32 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
+          >
+            <Activity size={48} />
+          </motion.div>
 
-           <motion.div
-             animate={{
-               scale: [1, 1.1, 1],
-               opacity: [0.6, 1, 0.6]
-             }}
-             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-             className="absolute z-10 translate-y-40 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
-           >
-              <Plus size={48} />
-           </motion.div>
+          <motion.div
+            animate={{
+              scale: [1, 1.1, 1],
+              opacity: [0.6, 1, 0.6]
+            }}
+            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+            className="absolute z-10 translate-y-40 w-32 h-32 glass rounded-[32px] border border-brand-accent/10 shadow-xl flex items-center justify-center text-brand-accent/60"
+          >
+            <Plus size={48} />
+          </motion.div>
 
-           {/* Heartbeat Line Decorative */}
-           <svg className="absolute inset-0 w-full h-full opacity-10 pointer-events-none" viewBox="0 0 800 400">
-              <motion.path
-                d="M0,200 L100,200 L120,150 L140,250 L160,200 L300,200 L320,50 L340,350 L360,200 L500,200 L520,180 L540,220 L560,200 L800,200"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                initial={{ pathLength: 0 }}
-                animate={{ pathLength: 1 }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-                className="text-brand-accent"
-              />
-           </svg>
+          {/* Heartbeat Line Decorative */}
+          <svg className="absolute inset-0 w-full h-full opacity-10 pointer-events-none" viewBox="0 0 800 400">
+            <motion.path
+              d="M0,200 L100,200 L120,150 L140,250 L160,200 L300,200 L320,50 L340,350 L360,200 L500,200 L520,180 L540,220 L560,200 L800,200"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+              className="text-brand-accent"
+            />
+          </svg>
 
-           {/* Background Glow */}
-           <div className="absolute inset-0 bg-brand-accent/5 blur-[120px] rounded-full scale-[1.8] opacity-60" />
+          {/* Background Glow */}
+          <div className="absolute inset-0 bg-brand-accent/5 blur-[120px] rounded-full scale-[1.8] opacity-60" />
         </div>
       </div>
     </section>

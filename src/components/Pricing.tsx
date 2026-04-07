@@ -36,7 +36,7 @@ export const Pricing = () => {
             viewport={{ once: true }}
             className="inline-block glass px-6 py-2.5 rounded-full text-[11px] font-bold text-brand-accent mb-8 border border-brand-accent/10 uppercase tracking-[0.2em]"
           >
-            Planes de Salud
+            Planes a tu Medida
           </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export const Pricing = () => {
             transition={{ delay: 0.2 }}
             className="text-5xl md:text-7xl font-display font-bold text-brand-primary mb-8 tracking-tight"
           >
-            Tu Bienestar, Tu Eleccion
+            Un escudo financiero <br />para cada estilo de vida
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export const Pricing = () => {
             transition={{ delay: 0.3 }}
             className="text-xl text-brand-text/50 max-w-2xl mx-auto leading-relaxed font-medium"
           >
-            Cotizamos con multiples aseguradoras para ofrecerte el mejor plan al mejor precio. Sin compromisos, sin letra chiquita.
+            Analizamos todas las aseguradoras del mercado para diseñarte una póliza con la cobertura exacta que necesitas, al precio más competitivo. Cero letra pequeña.
           </motion.p>
         </div>
 
@@ -113,7 +113,7 @@ export const Pricing = () => {
             <Star size={28} fill="currentColor" />
           </div>
           <p className="text-xl text-brand-text/60 font-bold text-center md:text-left leading-tight">
-            Los precios varian segun edad, cobertura y aseguradora. <br /> <span className="text-brand-accent">Cotiza gratis y sin compromiso.</span>
+            El costo se personaliza por perfil, sumas aseguradas y deducciones aplicables. <br /> <span className="text-brand-accent">Hablemos para encontrar tu configuración ideal.</span>
           </p>
         </motion.div>
       </div>
