@@ -87,7 +87,7 @@ export const Projects = () => {
             </div>
 
             <motion.a
-              href="https://medla-asesores.com/agenda-tu-cita/"
+              href="#contact"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}

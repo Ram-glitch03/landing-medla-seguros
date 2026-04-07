@@ -48,7 +48,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-24"
         >
-          <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="btn-primary-gradient text-white px-10 py-5 rounded-full text-lg font-bold shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-3 group cursor-pointer relative overflow-hidden">
+          <a href="#contact" className="btn-primary-gradient text-white px-10 py-5 rounded-full text-lg font-bold shadow-2xl hover:scale-105 active:scale-95 transition-all flex items-center gap-3 group cursor-pointer relative overflow-hidden">
             <Shield className="relative z-10" />
             <span className="relative z-10">Cotiza tu Seguro Gratis</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform relative z-10" />

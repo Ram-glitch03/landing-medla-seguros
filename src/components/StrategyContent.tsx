@@ -68,7 +68,7 @@ export const StrategyContent = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-          <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="btn-primary-gradient text-white px-10 py-5 rounded-full text-lg font-bold shadow-xl hover:scale-105 transition-transform flex items-center gap-3 group cursor-pointer">
+          <a href="#contact" className="btn-primary-gradient text-white px-10 py-5 rounded-full text-lg font-bold shadow-xl hover:scale-105 transition-transform flex items-center gap-3 group cursor-pointer">
             Agendar Asesoria Gratuita
             <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           </a>

@@ -73,7 +73,7 @@ export const Careers = () => {
         </div>
 
         <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-6">
-          <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="btn-primary-gradient text-white px-8 py-4 rounded-full font-bold shadow-lg flex items-center gap-2 group cursor-pointer">
+          <a href="#contact" className="btn-primary-gradient text-white px-8 py-4 rounded-full font-bold shadow-lg flex items-center gap-2 group cursor-pointer">
             <HeartPulse size={18} /> Agenda tu Cita
           </a>
           <a href="https://wa.me/5554627166" target="_blank" rel="noopener noreferrer" className="glass text-brand-primary px-8 py-4 rounded-full font-bold shadow-sm border border-brand-primary/10 hover:bg-brand-primary/5 transition-colors cursor-pointer">

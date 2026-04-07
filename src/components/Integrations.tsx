@@ -12,7 +12,7 @@ export const Integrations = () => {
             <p className="text-lg text-brand-text/70 mb-10 leading-relaxed">
               Trabajamos con las aseguradoras mas reconocidas del mercado para ofrecerte las mejores coberturas, precios y beneficios. Tu solo elige, nosotros negociamos por ti.
             </p>
-            <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="btn-primary-gradient text-white px-8 py-4 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity cursor-pointer inline-block">
+            <a href="#contact" className="btn-primary-gradient text-white px-8 py-4 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity cursor-pointer inline-block">
               Solicitar Cotizacion
             </a>
           </div>

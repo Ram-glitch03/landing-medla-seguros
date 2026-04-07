@@ -46,7 +46,7 @@ export const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="hidden md:block btn-primary-gradient text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-md hover:opacity-90 transition-opacity cursor-pointer">
+          <a href="#contact" className="hidden md:block btn-primary-gradient text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-md hover:opacity-90 transition-opacity cursor-pointer">
             Agenda tu Cita
           </a>
           <button
@@ -78,7 +78,7 @@ export const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="btn-primary-gradient text-white w-full py-4 rounded-2xl text-lg font-semibold mt-4 cursor-pointer text-center block">
+              <a href="#contact" className="btn-primary-gradient text-white w-full py-4 rounded-2xl text-lg font-semibold mt-4 cursor-pointer text-center block">
                 Agenda tu Cita
               </a>
             </div>

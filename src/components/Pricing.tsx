@@ -83,7 +83,7 @@ export const Pricing = () => {
                 </div>
               </div>
 
-              <a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className={`w-full py-6 rounded-full font-bold text-lg transition-all duration-500 cursor-pointer shadow-lg hover:scale-105 active:scale-95 text-center block ${plan.popular ? "btn-primary-gradient text-white" : "glass text-brand-primary border border-brand-primary/10 hover:bg-brand-primary/5"}`}>
+              <a href="#contact" className={`w-full py-6 rounded-full font-bold text-lg transition-all duration-500 cursor-pointer shadow-lg hover:scale-105 active:scale-95 text-center block ${plan.popular ? "btn-primary-gradient text-white" : "glass text-brand-primary border border-brand-primary/10 hover:bg-brand-primary/5"}`}>
                 Cotizar Ahora
               </a>
 
