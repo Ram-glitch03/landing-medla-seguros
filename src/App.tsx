@@ -14,6 +14,7 @@ import { Careers } from "./components/Careers";
 import { Community } from "./components/Community";
 import { Pricing } from "./components/Pricing";
 import { FAQ } from "./components/FAQ";
+import Contact from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -90,7 +91,8 @@ export default function App() {
         </section>
       </main>
 
-      <Contact />\n      <Footer />
+      <Contact />
+      <Footer />
     </div>
   );
 }
